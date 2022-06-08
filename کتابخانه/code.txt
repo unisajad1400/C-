@@ -1,0 +1,36 @@
+int sizeListBook = 0;
+	int valueSearch = 0;
+	string number;
+
+	cout << "1.Book" << endl;
+	cout << "2.Member" << endl;
+	cout << "3.Loan" << endl;
+	
+    cin >> number;
+    
+    while (number != "0") {
+    	if (number == "1") {
+    	    Book book;
+    	    Library library;
+    	
+    	    cout << "1.Add Book" << "\n" << "2.Search Book" << "\n" << "3.Delete Book" << endl;
+    	    cin >> number;
+    	
+    	    if (number == "1") {
+    	    	cout << "Please Enter iD And Name: ";
+    		    		    
+		    }
+		
+		    if (number == "2") {
+			
+			    cout << "Please Enter Value: ";
+			    cin >> valueSearch;
+	        }
+	        
+	        if (number == "3") {
+	        	cout << "Please Enter iD: ";
+	        	
+			}
+	    }
+	}
+	
